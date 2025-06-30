@@ -1,0 +1,162 @@
+/*resetting rules...*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f0e2c5;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* header section */
+header {
+  /* border: 2px solid black; */
+  text-align: center;
+  padding: 50px 0;
+}
+header h1 {
+  font-family: "Playfair Display SC", serif;
+  color: #49281a;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+header p {
+  font-family: "Lato", sans-serif;
+  color: #49281a;
+}
+header a {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #49281a;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin: 20px auto;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+/* nav section */
+nav {
+  /* border: 2px solid black; */
+  text-align: center;
+  padding: 20px 0;
+}
+nav ul li {
+  display: inline-block;
+  border: 1px solid black;
+  font-family: "Lato", sans-serif;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: #49281a;
+  text-decoration: none;
+}
+/* our menu section */
+#our-menu,
+#about-us,
+#contact-us,
+#footer {
+  /* border: 2px solid black; */
+  width: 80%;
+  margin: 20px auto;
+}
+#our-menu h2,
+#about-us h2,
+#contact-us h2 {
+  font-family: "Playfair Display SC", serif;
+  color: #49281a;
+  margin-bottom: 20px;
+}
+.menu-list {
+  border: 2px solid black;
+  margin-top: 20px;
+  text-align: center;
+}
+.menu-list h3 {
+  font-family: "Playfair Display SC", serif;
+  color: #49281a;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 240px;
+  font-family: "Lato", sans-serif;
+  color: #49281a;
+  display: inline-block;
+}
+.card-img-top {
+  max-width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.card-body {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+.card-title {
+  background-color: cyan;
+  padding: 10px 0;
+}
+.card-text {
+  line-height: 1.5rem;
+  margin: 10px 0;
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  border: none;
+  width: 100%;
+}
+/* about-us section */
+#about-us p,
+#contact-us p {
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+  text-align: justify;
+  line-height: 1.5;
+}
+form {
+  font-family: "Lato", sans-serif;
+  margin-top: 20px;
+}
+form div {
+  margin-bottom: 20px;
+}
+.form-label {
+  display: inline-block;
+  width: 150px;
+  margin-right: 10px;
+  text-align: right;
+}
+.form-control {
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: #49281a 1px dotted;
+}
+.btnSubmit {
+  background-color: #49281a;
+  color: #f0e2c5;
+  border: none;
+  margin-left: 160px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+}
+footer {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+footer p {
+  font-size: 0.9rem;
+}
